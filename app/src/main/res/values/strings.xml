@@ -4,4 +4,11 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search_unit_hint">Search Units</string>
+
+    <string-array name="main_menu_tabs_array">
+        <item>All</item>
+        <item>Favorite</item>
+        <item>Custom</item>
+    </string-array>
 </resources>
