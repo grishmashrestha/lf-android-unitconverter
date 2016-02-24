@@ -57,11 +57,11 @@ public class AllFragment extends Fragment {
     private @DrawableRes int getImagePath(String AllMenus) {
         switch (AllMenus) {
             case "Temperature":
-                return R.drawable.whale2;
+                return R.drawable.whale;
             case "Weight":
-                return R.drawable.whale2;
+                return R.drawable.whale;
             case "Length":
-                return R.drawable.whale2;
+                return R.drawable.whale;
             default:
                 return R.drawable.whale;
         }
