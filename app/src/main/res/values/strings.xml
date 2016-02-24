@@ -33,9 +33,5 @@
         <item>Weight</item>
         <item>Length</item>
         <item>Time</item>
-        <item>Temperature</item>
-        <item>Weight</item>
-        <item>Length</item>
-        <item>Time</item>
     </string-array>
 </resources>

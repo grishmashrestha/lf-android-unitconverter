@@ -2,12 +2,14 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:gravity="center"
-    style="@style/all_menu_grid_each">
+    style="@style/all_menu_grid_each"
+    android:onClick="test">
 
     <ImageView
         android:id="@+id/main_menu_image"
-        android:layout_width="30dp"
-        android:layout_height="30dp" />
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_margin="10dp"/>
 
     <TextView
         android:layout_width="match_parent"

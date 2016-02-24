@@ -1,5 +1,6 @@
 package com.example.grishma.unitconverter;
 
+import android.graphics.Color;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -22,6 +23,7 @@ public class AllFragmentAdapter extends RecyclerView.Adapter<AllFragmentAdapter.
         // each data item is just a string in this case
         public TextView mTextView;
         public ImageView mImageView;
+
         public ViewHolder(View v) {
             super(v);
             mTextView = (TextView) v.findViewById(R.id.tv_name);
@@ -53,6 +55,7 @@ public class AllFragmentAdapter extends RecyclerView.Adapter<AllFragmentAdapter.
         // - replace the contents of the view with that element
         holder.mTextView.setText(mDataset[position].getName());
         holder.mImageView.setBackgroundResource(mDataset[position].getPath());
+        holder.mImageView.setColorFilter(Color.parseColor("#ff0000"));
     }
 
     // Return the size of your dataset (invoked by the layout manager)

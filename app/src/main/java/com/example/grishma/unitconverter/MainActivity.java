@@ -11,6 +11,8 @@ import android.text.Layout;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
+import android.widget.Toast;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
@@ -33,5 +35,10 @@ public class MainActivity extends AppCompatActivity {
                 MainActivity.this));
 
         tabLayout.setupWithViewPager(viewPager);
+    }
+
+    public void test(View view) {
+        TextView tv = (TextView) view.findViewById(R.id.tv_name);
+        Toast.makeText(MainActivity.this, tv.getText(), Toast.LENGTH_SHORT).show();
     }
 }
