@@ -37,8 +37,23 @@ public class MainActivity extends AppCompatActivity {
         tabLayout.setupWithViewPager(viewPager);
     }
 
-    public void test(View view) {
+    public void redirectToConversionActivity(View view) {
         TextView tv = (TextView) view.findViewById(R.id.tv_name);
-        Toast.makeText(MainActivity.this, tv.getText(), Toast.LENGTH_SHORT).show();
+        String selectedConversion = (String) tv.getText();
+        Toast.makeText(MainActivity.this, selectedConversion, Toast.LENGTH_SHORT).show();
+
+        switch (selectedConversion) {
+            case "Temperature":
+                break;
+            case "Weight":
+                break;
+            case "Length":
+                break;
+            case "Time":
+                break;
+            default:
+                break;
+        }
+
     }
 }
