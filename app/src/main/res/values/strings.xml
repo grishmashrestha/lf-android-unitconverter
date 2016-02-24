@@ -11,4 +11,31 @@
         <item>Favorite</item>
         <item>Custom</item>
     </string-array>
+
+    <string-array name="all_menu_tabs_array">
+        <item>Temperature</item>
+        <item>Weight</item>
+        <item>Length</item>
+        <item>Time</item>
+        <item>Temperature</item>
+        <item>Weight</item>
+        <item>Length</item>
+        <item>Time</item>
+        <item>Temperature</item>
+        <item>Weight</item>
+        <item>Length</item>
+        <item>Time</item>
+        <item>Temperature</item>
+        <item>Weight</item>
+        <item>Length</item>
+        <item>Time</item>
+        <item>Temperature</item>
+        <item>Weight</item>
+        <item>Length</item>
+        <item>Time</item>
+        <item>Temperature</item>
+        <item>Weight</item>
+        <item>Length</item>
+        <item>Time</item>
+    </string-array>
 </resources>

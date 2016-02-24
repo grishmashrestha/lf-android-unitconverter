@@ -6,4 +6,12 @@
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
         <item name="android:statusBarColor">@android:color/transparent</item>
     </style>
+
+    <style name="all_menu_grid_each">
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:background">#FFFFFF</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:layout_width">70dp</item>
+        <item name="android:layout_height">100dp</item>
+    </style>
 </resources>
