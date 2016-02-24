@@ -20,19 +20,23 @@
     <string-array name="all_menu_tabs_array">
         <item>@string/temperature</item>
         <item>@string/weight</item>
-        <item>@string/weight</item>
+        <item>@string/length</item>
         <item>@string/time</item>
         <item>@string/temperature</item>
         <item>@string/weight</item>
-        <item>@string/weight</item>
+        <item>@string/length</item>
         <item>@string/time</item>
         <item>@string/temperature</item>
         <item>@string/weight</item>
-        <item>@string/weight</item>
+        <item>@string/length</item>
         <item>@string/time</item>
         <item>@string/temperature</item>
         <item>@string/weight</item>
-        <item>@string/weight</item>
+        <item>@string/length</item>
         <item>@string/time</item>
     </string-array>
+    <string name="title_activity_temperature">TemperatureActivity</string>
+    <string name="title_activity_weight">WeightActivity</string>
+    <string name="title_activity_length">LengthActivity</string>
+    <string name="title_activity_time">TimeActivity</string>
 </resources>
