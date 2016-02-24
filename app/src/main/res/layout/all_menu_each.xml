@@ -3,7 +3,7 @@
     android:orientation="vertical"
     android:gravity="center"
     style="@style/all_menu_grid_each"
-    android:onClick="test">
+    android:onClick="redirectToConversionActivity">
 
     <ImageView
         android:id="@+id/main_menu_image"
